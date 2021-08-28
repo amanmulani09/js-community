@@ -1,0 +1,227 @@
+/* CSS Resat */
+
+*{
+    /* background-color: gainsboro; */
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Nevigation Bar Styling */
+
+#navbar{
+    /* border:3px solid black; */
+    display: flex;
+}
+
+
+/* Navbar Logo Styling */
+
+#navbar img{
+   width:90px;
+    height: 100px;
+    margin:10px;
+
+}
+
+/* Navbar link styling */
+
+#navbar ul{
+
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    margin-top:40px;
+    
+}
+#navbar ul li a{
+
+    text-decoration: none;
+    padding:13px;
+    color:black;
+    font-size:1.5rem;
+    border-radius:23px;
+}
+#navbar ul li a:hover{
+
+    background-color: black;
+    color:white;
+
+}
+
+/* Navbar Button Styling */
+
+.btn{
+    position:absolute;
+    right: 0;
+    padding:13px 23px;
+    margin:25px 30px;
+    color:red;
+    font-size:1.6rem;
+    background-color: none;
+    border:none;
+  border-radius: 23px;
+    font-style:bold;
+cursor: pointer;
+    
+}
+.btnn{
+    padding:13px 23px;
+    margin:25px 30px;
+    color:red;
+    font-size:1.6rem;
+    background: none;
+    border:none;
+  border-radius: 23px;
+    font-style:bold;
+cursor: pointer;
+margin-left: 520px;
+margin-top:10px;
+    
+
+}
+
+.btnn:hover{
+    text-decoration: underline;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+
+/* Home Section Styling */
+#home{
+    /* border:2px solid black; */
+    display: flex;
+}
+#home img{
+    width:500px;
+    height: 500px;
+    /* border-radius: 50%; */
+    margin-top: 5px;
+    margin-left: 33px;
+
+
+}
+#home h2{
+    font-family: 'Righteous', cursive;
+    margin-top:160px;
+    text-align: center;
+    justify-content: center;
+    font-size:2.5rem;
+}
+
+#home p{
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    margin:13px;
+    font-size:0.8rem;
+}
+
+.butn{
+
+   
+    padding:13px 23px;
+    margin:25px 30px;
+    color:red;
+    font-size:1.6rem;
+    background-color: none;
+    border:none;
+  border-radius: 23px;
+    font-style:bold;
+cursor: pointer;
+align-items: center;
+text-align: center;
+margin-left: 300px;
+margin-top:10px;
+}
+
+
+/* About Section Styling */
+
+#About{
+    display: flex;
+    
+}
+
+.heading{
+    font-size:2rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top:13px;
+    margin-bottom: 20px;
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    
+    text-align: center;
+    /* border:3px solid black; */
+    width:300px;
+    height: 400px;
+    margin-left: 93px;
+}
+.box img{
+  width:200px;
+  height: 300px;
+}
+
+/* Review Section Styling */
+
+#Review{
+    display: flex;
+    
+}
+
+.heading{
+    font-size:2rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top:13px;
+    margin-bottom: 20px;
+
+}
+
+.rbox-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rbox{
+    cursor: pointer;
+    text-align: center;
+    /* border:3px solid black; */
+    width:300px;
+    height: 400px;
+    margin-left: 93px;
+    text-align: center;
+}
+.rbox img{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top:23px;
+}
+
+.bn{
+
+    padding:13px 23px;
+    margin-top:35px;
+    border-radius:13px;
+    font-size:1rem;
+    background-color: white;
+    border:3px solid lightskyblue;
+    cursor: pointer;
+}
+
+.bn:hover{
+    background-color: lightskyblue;
+}
